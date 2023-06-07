@@ -1,0 +1,473 @@
+@media (max-width: 768px) {
+    .icon {
+        height: 30px;
+        width: 30px;
+        margin: 5px;
+    }
+
+    .hide {
+        margin-top: 5px;
+        font-size: 13px;
+        width: 200px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .back {
+        height: 40px;
+    }
+
+    .carousel-control-prev, .carousel-control-next {
+        display: none;
+    }
+
+    .nav1, .nav2 {
+        display: none;
+    }
+
+    .img-slider {
+        height: 250px;
+        width: 350px;
+        margin-left: 13px;
+    }
+
+    .carousel-inner {
+        margin: 0;
+        width: 375px;
+    }
+
+    .carousel-item {
+        width: auto;
+        height: 270px;
+    }
+
+    .admin1 {
+        margin: 10px 0 0 100px;
+    }
+
+    .carousel-caption {
+        position: relative;
+        font-size: 12px;
+        width: 350px;
+        margin-left: -42px;
+    }
+
+    .admin {
+        font-size: 22px;
+    }
+
+    .active {
+        font-size: 20px;
+    }
+
+    .ford {
+        margin: 0 0 0 5px;
+    }
+
+    .ford td {
+        padding: 15px 3px;
+    }
+
+    .full {
+        font-size: 25px;
+    }
+
+    .img-vstup {
+        height: 300px;
+        width: 370px;
+    }
+
+    footer {
+        height: 110px;
+        width: 375px;
+    }
+
+    .mess {
+        margin-top: 20px;
+        font-size: 23px;
+        padding: 0 10px;
+    }
+
+    .lutic {
+        font-size: 20px;
+        margin-top: 40px;
+    }
+
+    main {
+        height: 88vh;
+    }
+
+    .main {
+        height: 88vh;
+    }
+
+    .acts {
+        font-size: 22px;
+        margin-top: 20px;
+    }
+
+    .acts img {
+        width: 340px;
+        margin-top: 30px;
+        margin-left: 5vw;
+    }
+
+    .afk {
+        font-size: 35px;
+    }
+
+    iframe {
+        width: 350px;
+        height: 300px;
+        margin-left: 8px;
+    }
+
+    .dropdown {
+        display: block;
+    }
+}
+
+@media (min-width: 1200px) {
+    .icon {
+        height: 60px;
+        width: 70px;
+        margin: 10px 35px;
+    }
+
+    .hide {
+        margin-top: 25px;
+        font-size: 20px;
+    }
+
+    .back {
+        height: 80px;
+    }
+
+    .carousel-control-prev, .carousel-control-next {
+        display: flex;
+    }
+
+    .img-slider {
+        height: 600px;
+    }
+
+    .carousel-inner {
+        margin: 0 300px;
+        width: 900px;
+    }
+
+    .carousel-item {
+        width: 900px;
+        height: 600px;
+    }
+
+    .admin1 {
+        margin-left: 665px;
+    }
+
+    .carousel-caption {
+        position: absolute;
+        bottom: 20px;
+        font-size: 18px;
+    }
+
+    .admin {
+        font-size: 30px;
+    }
+
+    .active {
+        font-size: 25px;
+    }
+
+    .ford {
+        margin: 0 30px;
+    }
+
+    .ford td {
+        padding: 30px;
+    }
+
+    .full {
+        font-size: 30px;
+    }
+
+    .img-vstup {
+        height: 800px;
+        width: 1300px;
+    }
+
+    footer {
+        height: 85px;
+        width: 100%;
+    }
+
+    .mess {
+        margin-top: 50px;
+        font-size: 30px;
+    }
+
+    .lutic {
+        font-size: 30px;
+        margin-top: 50px;
+    }
+
+    main {
+        height: 87.5vh;
+    }
+
+    .main {
+        height: 100vh;
+    }
+
+    .acts {
+        font-size: 30px;
+        margin-top: 30px;
+    }
+
+    .acts img {
+        width: 750px;
+        margin-top: 50px;
+        margin-left: 25vw;
+    }
+
+    .new {
+        font-size: 30px;
+    }
+
+    .afk {
+        font-size: 50px;
+    }
+
+    iframe {
+        width: 750px;
+        height: 500px;
+    }
+
+    .dropdown {
+        display: none;
+    }
+}
+
+body {
+    background: url("../images/cub45.jpg");
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    background: #78a0ba;
+    color: white;
+    font-weight: bold;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    font-family: Arial, serif;
+}
+
+.hide {
+    font-weight: bold;
+}
+
+.hide:hover {
+    color: red;
+}
+
+.menu {
+    float: right;
+    cursor: pointer;
+}
+
+.menu span {
+    margin-right: 20px;
+}
+
+.menu1 {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    margin: 20px 0 0 200px;
+    font-size: 20px;
+}
+
+.menu1 li {
+    margin-left: 10px;
+}
+
+.menu1 li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.carousel-caption {
+    color: #fff;
+    bottom: 20px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.new {
+    display: flex;
+    font-weight: normal;
+    font-stretch: normal;
+    color: white;
+    margin: 20px;
+}
+
+.admin {
+    text-align: center;
+    color: #ffffff;
+}
+
+.admin1 {
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.active {
+    text-align: center;
+    color: #ce6262;
+}
+
+.act {
+    font-size: 25px;
+    text-align: left;
+    color: white;
+}
+
+.gg {
+    text-align: center;
+}
+
+.ford {
+    color: white;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+}
+
+.full {
+    font-family: "Arial black", sans-serif;
+    text-align: center;
+    color: yellow;
+    box-shadow: green;
+}
+
+.bmw {
+    text-align: center;
+}
+
+.mess {
+    color: white;
+    text-align: center;
+}
+
+.fis {
+    margin-top: 30px;
+    color: yellow;
+    text-align: center;
+    font-size: 20px;
+}
+
+.dir {
+    margin-top: 30px;
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.afk {
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+    margin-left: 30px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.dfg {
+    text-align: center;
+}
+
+.acts {
+    color: orange;
+    text-align: center;
+}
+
+.acts img {
+    display: block;
+    box-shadow: 0 0 10px 5px blue;
+}
+
+.lutic {
+    margin-left: 40px;
+    color: yellow;
+}
+
+footer {
+    background: #2d2c2c;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    color: white;
+    margin-top: 15px;
+}
+
+.prava {
+    font-size: 2vh;
+    padding-top: 2.5vh;
+    line-height: 1vh;
+    font-family: Arial, serif;
+}
+
+.name {
+    line-height: 3vh;
+    padding: 10px 40px;
+}
+
+.dropbtn {
+    background: #78a0ba;
+    color: white;
+    width: 15vw;
+    padding: 7px;
+    border: none;
+    z-index: 100;
+    margin-left: 35px;
+    font-size: 20px;
+}
+
+.dropdown {
+    position: relative;
+    z-index: 1;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: #78a0ba;
+    padding: 1vh 1vw;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.6);
+    width: 170px;
+    font-size: 2vh;
+    margin-left: -40px;
+    overflow: auto;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    padding: 5px 5px 5px 10px;
+    text-decoration: none;
+    display: block;
+    font-size: 17px;
+    color: white;
+}
+
+.show {
+    display: block;
+}
